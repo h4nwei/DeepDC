@@ -1,18 +1,18 @@
 # DeepDC: Deep Distance Correlation as a Perceptual Image Quality Evaluator
 
-This is the repository of paper [DeepDC: Deep Distance Correlation as a Perceptual Image Quality Evaluator](https://arxiv.org/abs/***). 
+This is the repository of paper [DeepDC: Deep Distance Correlation as a Perceptual Image Quality Evaluator](https://arxiv.org/pdf/2211.04927v2.pdf). 
 
 ### Highlights:
 
-* A novel FR-IQA model that fully utilizes the *texture-sensitiv*e of pre-trained DNN features, which computes **distance correlation** in the deep feature domain 
-* The model is **exclusively** based on the features of the pre-trained DNNs and does not rely on fine-tuning with MOSs
+* A novel FR-IQA model that fully utilizes the *texture-sensitiv*e of pre-trained deep neural network (DNN) features, which computes **distance correlation** in the deep feature domain 
+* The model is **exclusively** based on the features of the pre-trained DNNs and does not rely on fine-tuning with mean opinion scores (MOSs)
 * Extensive experiments achieve superior performance on five standard IQA datasets, one perceptual similarity dataset, two texture similarity datasets, and one geometric transformation dataset
 * It can be employed as an objective function in texture synthesis and neural style transfer
    
 
 
 
-### ====== Pytorch Implementation ======
+### ====== PyTorch Implementation ======
 **Installation:** 
 - ```pip install DeepDC-PyTorch```
 

@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='DeepDC_PyTorch',
-    version='0.2',
+    version='0.1.2',
     description='DeepDC: Deep Distance Correlation as a Perceptual Image Quality Evaluator',
     long_description=long_description,
     long_description_content_type="text/markdown",
