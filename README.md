@@ -11,12 +11,11 @@ This is the repository of paper [DeepDC: Deep Distance Correlation as a Perceptu
    
 
 
-
 ### ====== PyTorch Implementation ======
 **Installation:** 
 - ```pip install DeepDC-PyTorch```
 
-### Requirements: 
+**Requirements:**  
 - Python >= 3.6
 - PyTorch >= 1.0
 
@@ -40,7 +39,7 @@ python DeepDC.py --ref <ref_path> --dist <dist_path>
 
 - R. Zhang, P. Isola, A. A. Efros, E. Shechtman, and O. Wang, “The unreasonable effectiveness of deep features as a perceptual metric,” in *IEEE Conference on Computer Vision and Pattern Recognition*, 2018, pp. 586–595.
 - K. Ding, K. Ma, S. Wang, and E. P. Simoncelli, “Image quality assessment: Unifying structure and texture similarity,” *IEEE Transactions on Pattern Analysis and Machine Intelligence*, vol. 44, no. 5, pp. 2567–2581, 2020.
-- I. Kligvasser, T. Shaham, Y. Bahat, and T. Michaeli, “Deep selfdissimilarities as powerful visual fingerprints,” in *Neural Information Processing Systems*, 2021, pp. 3939–3951.
+- I. Kligvasser, T. Shaham, Y. Bahat, and T. Michaeli, “Deep self dissimilarities as powerful visual fingerprints,” in *Neural Information Processing Systems*, 2021, pp. 3939–3951.
 
 ## Citation
 ```bibtex
